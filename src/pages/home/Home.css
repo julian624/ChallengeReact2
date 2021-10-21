@@ -1,0 +1,71 @@
+.CrudContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #031120bf;
+  margin: 0 auto;
+  width: 1200px;
+  color: whitesmoke;
+  border-radius: 20px;
+}
+
+/* ///////// MOVILE ////////////////////  */
+@media (max-width: 480px) {
+  .CrudContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #031120bf;
+    margin-right: 60px;
+    margin-left: 30px;
+    width: auto;
+    color: whitesmoke;
+    border-radius: 20px;
+  }
+  .CrudContainer form {
+    width: 450px;
+  }
+}
+
+.CrudContainer h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 7px #858181, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(0 132 255), 0 0 82px rgb(0 119 255), 0 0 92px rgb(0 132 255),
+    0 0 102px #00ffaa1c, 0 0 151px #0fa0;
+}
+
+/* //////////////// ADD USER //////////  */
+
+.InputAddUser {
+  height: 40px;
+  margin-right: 10px;
+  width: 450px;
+  background: rgb(78 99 106 / 40%);
+  border-radius: 10px;
+}
+.PostsContainer {
+  margin-top: 100px;
+}
+
+/* ////////////// cartel posts ///////////// */
+
+.user {
+  margin-top: 10px;
+}
+.user h3 {
+  margin-left: 10px;
+}
+
+.DivButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DivButtons button {
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
